@@ -78,8 +78,8 @@ They identify the request type the client is executing to the server, we will on
 - **OPTIONS**: It is used natively by browsers. It will allow the browser to validate a request that any method/verb be used, this is done to verify that domain A.com can make these requests to domain B.com. This is done to prevent anyone from making requests from other domains.
 
 Actually this is definded as a concept, **CORS**, which dictates if you want allow or not the requests from the domain A.com to the domain B.com, this is defined when you create your API, for example you can allow only resquests from your subdomains to the domain and any other requests from other web pages will be restricted to avoid CORS attacks.
- [!NOTE]
- > If you are doing a backend client pointing to an API, this backend client do not execute the **OPTION** requests, owing to the fact that they do not have domain, furthermore they execute request straightforward to the server, unlike the browsers.
+>[!NOTE]
+> If you are doing a backend client pointing to an API, this backend client do not execute the **OPTION** requests, owing to the fact that they do not have domain, furthermore they execute request straightforward to the server, unlike the browsers.
 
 ## NODE.JS 
 
