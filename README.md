@@ -1,3 +1,6 @@
+> [!WARNING]
+> This project is on hiatus and unfinished.
+
 # Chat background
 
 ## API REST
