@@ -95,11 +95,24 @@ REpresentational State Transfer (REST), the web is based on REST architecture us
 
 EVERYTHING in the web is a resource, e.g. when you visit a A.com page, beyond the scene, we are performing several requests to server, namely, one would be the _index.html_ file (1 resource), that file needs the _styles.css_ so the client needs another resource to be requested, also that _.html_ file needs the _script.js_ (another resource) that has to be requested, if you need to load images in your web page, that images are resources as well.
 
-- As a resource they must have a unique identifier, `URI`, two resoruces with the same identifier cannot coexist in the whole web, e.g. the _index.html_ indentifier would be **/index.html**, the _styles.css_ indentifier would be **/styles/styles.css**.
+- As a resource they must have a unique identifier, `URI`, two resoruces with the same identifier cannot coexist in the whole web, e.g. the _index.html_ indentifier would be **/index.html**, the _styles.css_ indentifier would be **/styles/styles.css**. 
 - They must be represented with a format, when the _index.html_ resource is returned to the client that resource has the html text format or the image is _image.png_, moreover the resource format should be  variable in order to be playable in different formats. Nowadays, REST API uses the `JSON` format, but that does not mean API REST uses only that format, they can use the XML as well, for example. <sub> Although is more inefficient. </sub>
 - The communications do not have states, every request from the client to the server are independent, therefore is totally new for the server and it does not need to know the other requests and save information of any request to use it later in a next request.
 
+**URI**
 
+As all the resources must be identified as unique we use URI, the URI's can be represented as URL or URN:
+
+The URL is the resource locator and the URN is the resource name, both are types of URI's, nowadays URN are more uncommon than URL.
+
+<p align="center">
+
+<img src="https://github.com/RogerCL24/NodeJS-WS_chat/assets/90930371/a2ddffe6-e3fe-4027-8840-6c9a36fc25b8"/>
+</p>
+
+With the URL's we can identify the resource as unique in the whole web 
+
+<sub> [SOURCE](https://danielmiessler.com/p/difference-between-uri-url/) </sub>
 
 ## NODE.JS 
 
