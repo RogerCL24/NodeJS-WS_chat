@@ -88,8 +88,16 @@ Actually this is definded as a concept, **CORS**, which dictates if you want all
  - _200 to 299_: **Correctness** -> The request from the client and the process from the server were executed correctly.
  - _300 to 399_: **Redirection** -> Sometimes we move a resource from _.../account/A_ to _.../account/B_, then the server has to inform about the moved/redirected resource if you want to access to it and add if it was a temporal or a permanent redirection.
  - _400 to 499_: **Client error** -> For instance, the client executes a resquest to a non-existent page (_404 Not Found_) or a bad request (400), you fulfill your credentials in a web page and instead of writting the age gap as integer, you have written as string, the server will respond you with a 400 response code.
- - _500 to 599_: **Server error** -> 
+ - _500 to 599_: **Server error** -> For example, a data base outage/shutdown (500) or bad gateway(504), the software in charge to send the request to the correct side fails for any reason.
 
+### REST
+REpresentational State Transfer (REST), the web is based on REST architecture using the HTTP protocol in order to execute the REST properties: ⬇️
+
+EVERYTHING in the web is a resource, e.g. when you visit a A.com page, beyond the scene, we are performing several requests to server, namely, one would be the _index.html_ file (1 resource), that file needs the _styles.css_ so the client needs another resource to be requested, also that _.html_ file needs the _script.js_ (another resource) that has to be requested, if you need to load images in your web page, that images are resources as well.
+
+- As a resource they must have a unique identifier, `URI`, two resoruces with the same identifier cannot coexist in the whole web, e.g. the _index.html_ indentifier would be **/index.html**, the _styles.css_ indentifier would be **/styles/styles.css**.
+- They must be represented with a format, when the _index.html_ resource is returned to the client that resource has the html text format or the image is _image.png_, moreover the resource format should be  variable in order to be playable in different formats. Nowadays, REST API uses the `JSON` format, but that does not mean API REST uses only that format, they can use the XML as well, for example <sub> ALthough is more inefficient </sub>.
+- The communications do not have states, every request from the client to the server are independent, therefore is totally new for the server and it does not need to know the other requests and save information of any request to use it later in a next request.
 
 
 
