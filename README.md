@@ -110,10 +110,8 @@ The URL is the resource locator and the URN is the resource name, both are types
 <img src="https://github.com/RogerCL24/NodeJS-WS_chat/assets/90930371/a2ddffe6-e3fe-4027-8840-6c9a36fc25b8"/>
 </p>
 
-With the URL's we can identify the resource as unique in the whole web 
-
 <sub> [SOURCE](https://danielmiessler.com/p/difference-between-uri-url/) </sub>
-
+With the URL's we can identify the resource as unique in the whole web 
 ## NODE.JS 
 
 [^1]: More info at [https://developer.mozilla.org/es/docs/Web/HTTP/Status](https://developer.mozilla.org/es/docs/Web/HTTP/Status)
