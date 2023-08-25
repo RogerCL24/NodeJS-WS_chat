@@ -1,5 +1,6 @@
 > [!WARNING]
-> This project is on hiatus and unfinished. Upcoming implementations -> _Content types_, _Cookies_, _Tokens_, _Idempotence_ and _Hateoas_.
+> This project is on hiatus and unfinished.
+> Upcoming implementations -> _Content types_, _Cookies_, _Tokens_, _Idempotence_ and _Hateoas_.
 
 # Chat background
 
