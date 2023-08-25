@@ -82,6 +82,7 @@ Actually this is definded as a concept, **CORS**, which dictates if you want all
 > If you are doing a backend client pointing to an API, this backend client do not execute the **OPTION** requests, owing to the fact that they do not have domain, furthermore they execute the request straightforward to the server, unlike the browsers.
 
 **HTTP RESPONSE CODES** <sub> Standard </sub> 
+
  HTTP response codes are a set of numbers that indicate the result of an HTTP request. There are five categories of response codes: [^1]
  - _100 to 199_: **Informatives** -> You do not need to use them, they are internally in the libraries, for example, connecting or disconnecting messages.
  - _200 to 299_: **Correctness** -> The request from the client and the process from the server were executed correctly.
