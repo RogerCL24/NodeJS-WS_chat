@@ -81,5 +81,17 @@ Actually this is definded as a concept, **CORS**, which dictates if you want all
 > [!NOTE]
 > If you are doing a backend client pointing to an API, this backend client do not execute the **OPTION** requests, owing to the fact that they do not have domain, furthermore they execute the request straightforward to the server, unlike the browsers.
 
+**HTTP RESPONSE CODES** <sub> Standard </sub> 
+ HTTP response codes are a set of numbers that indicate the result of an HTTP request. There are five categories of response codes: [^1]
+ - _100 to 199_: **Informatives** -> You do not need to use them, they are internally in the libraries, for example, connecting or disconnecting messages.
+ - _200 to 299_: **Correctness** -> The request from the client and the process from the server were executed correctly.
+ - _300 to 399_: **Redirection** -> Sometimes we move a resource from _.../account/A_ to _.../account/B_, then the server has to inform about the moved/redirected resource if you want to access to it and add if it was a temporal or a permanent redirection.
+ - _400 to 499_: **Client error** -> For instance, the client executes a resquest to a non-existent page (_404 Not Found_) or a bad request (400), you fulfill your credentials in a web page and instead of writting the age gap as integer, you have written as string, the server will respond you with a 400 response code.
+ - _500 to 599_: **Server error** -> 
+
+
+
+
 ## NODE.JS 
 
+[^1]: More info at [https://developer.mozilla.org/es/docs/Web/HTTP/Status](https://developer.mozilla.org/es/docs/Web/HTTP/Status)
