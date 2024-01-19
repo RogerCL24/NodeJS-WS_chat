@@ -82,7 +82,7 @@ They identify the request type the client is executing to the server, we will on
 - **HEADER**: It allows us to query the existence of a resource, it is different from the GET method because it asks the server to send it the resource, while HEADER only asks the server if it exists, it does not send any resource.
 - **OPTIONS**: It is used natively by browsers. It will allow the browser to validate a request that any method/verb be used, this is done to verify that domain A.com can make these requests to domain B.com. This is done to prevent anyone from making requests from other domains.
 
-Actually this is definded as a concept, **CORS**, which dictates if you want allow or not the requests from the domain A.com to the domain B.com, this is defined when you create your API, for example you can allow only resquests from your subdomains to the domain and any other requests from other web pages will be restricted to avoid CORS attacks.
+Actually this is definded as a concept, **CORS**, which dictates if you want to allow or not the requests from the domain A.com to the domain B.com, this is defined when you create your API, for example you can allow only resquests from your subdomains to the domain and any other requests from other web pages will be restricted to avoid CORS attacks.
 > [!NOTE]
 > If you are doing a backend client pointing to an API, this backend client do not execute the **OPTION** requests, owing to the fact that they do not have domain, furthermore they execute the request straightforward to the server, unlike the browsers.
 
